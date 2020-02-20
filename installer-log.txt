@@ -1,0 +1,157 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.30
+* STEP-1 START @ 07:07:40
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	7.3.6 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.6
+DOC ROOT:	D:/xampp/htdocs/namasazan
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/namasazan/installer.php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	hashone_8004da4df5b985751960171225111542_archive.zip
+SIZE:	34.1MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2378
+    [filename] => D:\xampp\htdocs\namasazan\hashone_8004da4df5b985751960171225111542_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2019-12-23 07:08:16
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.191223070816.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 07:08:16 - RUNTIME: 36.1610 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 07:13:25
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.16 -- Build Server: 5.6.21
+FILE SIZE:	database.sql (293.01KB) - installer-data.sql (293.01KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[D:/xampp/htdocs/namasazan/installer-data.sql]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	0
+QUERIES RAN:	133
+
+wp_hashonecommentmeta: (0)
+wp_hashonecomments: (1)
+wp_hashoneduplicator_packages: (1)
+wp_hashonelinks: (0)
+wp_hashoneoptions: (147)
+wp_hashonepostmeta: (292)
+wp_hashoneposts: (134)
+wp_hashoneterm_relationships: (32)
+wp_hashoneterm_taxonomy: (6)
+wp_hashonetermmeta: (0)
+wp_hashoneterms: (6)
+wp_hashoneusermeta: (22)
+wp_hashoneusers: (1)
+
+Removed '25' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 5.7284 sec.
+STEP-2 COMPLETE @ 07:13:31 - RUNTIME: 5.7596 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 07:16:13
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_hashonecommentmeta^ (0)
+wp_hashonecomments~ (1)
+wp_hashoneduplicator_packages^ (0)
+wp_hashonelinks^ (0)
+wp_hashoneoptions~ (121)
+wp_hashonepostmeta~ (292)
+wp_hashoneposts~ (134)
+wp_hashoneterm_relationships~ (32)
+wp_hashoneterm_taxonomy~ (6)
+wp_hashonetermmeta^ (0)
+wp_hashoneterms~ (6)
+wp_hashoneusermeta~ (22)
+wp_hashoneusers~ (1)
+--------------------------------------
+Search1:	'C:/xampp/htdocs/wordpress/hashone' 
+Change1:	'D:/xampp/htdocs/namasazan' 
+Search2:	'C:\/xampp\/htdocs\/wordpress\/hashone' 
+Change2:	'D:\/xampp\/htdocs\/namasazan' 
+Search3:	'C%3A%2Fxampp%2Fhtdocs%2Fwordpress%2Fhashone%2F' 
+Change3:	'D%3A%2Fxampp%2Fhtdocs%2Fnamasazan%2F' 
+Search4:	'C:\xampp\htdocs\wordpress\hashone' 
+Change4:	'D:/xampp/htdocs/namasazan' 
+Search5:	'//localhost/wordpress/hashone' 
+Change5:	'//localhost/namasazan' 
+Search6:	'\/\/localhost\/wordpress\/hashone' 
+Change6:	'\/\/localhost\/namasazan' 
+Search7:	'%2F%2Flocalhost%2Fwordpress%2Fhashone' 
+Change7:	'%2F%2Flocalhost%2Fnamasazan' 
+SCANNED:	Tables:13 	|	 Rows:615 	|	 Cells:5003 
+UPDATED:	Tables:1 	|	 Rows:138 	|	 Cells:140 
+ERRORS:		0 
+RUNTIME:	0.980600 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+NEW WP-ADMIN USER: New username 'namasazan' was created successfully 
+ 
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 07:16:15 - RUNTIME: 1.5417 sec.
+
+

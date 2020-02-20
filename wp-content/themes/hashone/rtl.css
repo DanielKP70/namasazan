@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'BYekan';
+	src: url('font/BYekan.eot?#') format('eot'),
+	url('font/BYekan.woff') format('woff'),
+	url('font/BYekan.ttf') format('truetype');
+}
+body,h1,h2,h3,h4,p,div,a,h1, h2, h3, h4, h5, h6{
+	font-family:BYekan;
+	letter-spacing:unset !important;
+}
+.hs-service-posts .hs-section-title, .hs-service-posts .hs-section-tagline{
+	font-family:BYekan;
+	letter-spacing:unset !important;
+}
+.hs-section-title{
+	font-family:BYekan;
+	letter-spacing:unset !important;
+}
+.hs-slide-cap-title{
+	font-family:BYekan;
+	letter-spacing:unset !important;
+}
+.hs-slide-cap-desc{
+	font-family:BYekan;
+	letter-spacing:unset !important;
+}
+.owl-carousel{
+	direction: ltr;
+}
+.hs-main-navigation li {
+    float: right;
+}
+.hs-about-sec{
+	float: right;
+}
+.hs-about-sec h2.hs-section-title {
+    text-align: right;
+}
+.hs-progress-bar-sec {
+    width: 49%;
+    float: left;
+}
+.hs-testimonial-excerpt .fa-quote-left{
+	display: none;
+}	
+.hs-testimonial-excerpt .fa-quote-right{
+	display: none;
+}
+.hs-contact-address ul li .fa {
+    margin-left: 8px !important;
+	margin-left: auto;
+}
